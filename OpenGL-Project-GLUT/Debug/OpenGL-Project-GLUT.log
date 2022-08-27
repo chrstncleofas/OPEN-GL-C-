@@ -1,0 +1,25 @@
+﻿Build started 17/02/2022 11:33:22 am.
+     1>Project "C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\OpenGL-Project-GLUT\OpenGL-Project-GLUT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\OpenGL-Project-GLUT.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\OpenGL\freeglut\include" /I"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\OpenGL\glew-1.11.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp source.cpp
+         source.cpp
+         main.cpp
+     1>c:\users\chrstn clfs\desktop\opengl-project-glut\opengl-project-glut\main.cpp(20): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\chrstn clfs\desktop\opengl-project-glut\opengl-project-glut\main.cpp(21): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\Debug\OpenGL-Project-GLUT.exe" /NOLOGO /LIBPATH:"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\OpenGL\freeglut\lib" /LIBPATH:"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\OpenGL\glew-1.11.0\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGL-Project-GLUT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\Debug\OpenGL-Project-GLUT.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\Debug\OpenGL-Project-GLUT.lib" /MACHINE:X86 Debug\main.obj
+         Debug\source.obj
+         OpenGL-Project-GLUT.vcxproj -> C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\Debug\OpenGL-Project-GLUT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\Debug\OpenGL-Project-GLUT.exe;#1" /manifest "Debug\OpenGL-Project-GLUT.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGL-Project-GLUT.unsuccessfulbuild".
+         Touching "Debug\OpenGL-Project-GLUT.lastbuildstate".
+     1>Done Building Project "C:\Users\Chrstn Clfs\Desktop\OpenGL-Project-GLUT\OpenGL-Project-GLUT\OpenGL-Project-GLUT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.15
